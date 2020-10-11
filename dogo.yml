@@ -1,0 +1,14 @@
+dogo:
+  dsn: root:root@tcp(127.0.0.1:3306)/dogo?charset=utf8mb4&parseTime=True&loc=Local
+  addr: 0.0.0.0:8080
+  guacd:
+    addr: 10.1.5.49:4822
+    rdp:
+      drive-name: FileSystem
+      drive-path: /home/
+    ssh:
+      font-name:
+      font-size: 24
+      color-scheme: gray-black
+    vnc:
+      autoretry: 3
